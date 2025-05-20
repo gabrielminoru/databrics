@@ -1,0 +1,7 @@
+.venv
+__pycache__
+.ropeproject
+.pytest_cache
+uv.lock
+.vscode
+.DS_store
