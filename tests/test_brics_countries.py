@@ -1,6 +1,6 @@
 from pathlib import Path
 
-data = Path("data/countries.csv").read_text()
+data = Path("data/countries.txt").read_text()
 
 def test_brasil_is_from_brics():
     assert "Brasil" in data
